@@ -39,3 +39,6 @@ TestResults.qpa
 *.psess
 *.vsp
 *.nvuser
+
+*.sw[a-p]
+target
