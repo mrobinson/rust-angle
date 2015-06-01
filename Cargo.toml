@@ -2,9 +2,6 @@
 
 name = "angle"
 version = "0.0.20150512"
-authors = [
-    "The ANGLE Project Authors",
-    "Martin Robinson",
-]
+authors = [ "The ANGLE Project Authors", "Martin Robinson", ]
 
-build = "build.rs"
+build = "make -f makefile.cargo"

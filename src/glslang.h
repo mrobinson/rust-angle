@@ -2,11 +2,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#![crate_name = "angle"]
-#![crate_type = "rlib"]
-#![feature(libc)]
+#ifndef RUST_ANGLE_GLSLANG_H_
+#define RUST_ANGLE_GLSLANG_H_
 
-extern crate libc;
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-pub mod angle;
-pub mod glslang;
+bool Initialize();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* RUST_ANGLE_GLSLANG_H_ */
+

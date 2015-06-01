@@ -3,7 +3,8 @@ AR ?= ar
 
 CXXFLAGS +=
 
-SKIA_CORE_CXX_SRC = \
+SRC = \
+	src/glslang.cpp \
 	src/common/event_tracer.cpp \
 	src/common/debug.cpp \
 	src/common/MemoryBuffer.cpp \

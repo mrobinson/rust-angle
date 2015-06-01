@@ -5,7 +5,6 @@
 use std::process::Command;
 use std::env;
 
-
 fn main() {
     assert!(Command::new("make")
         .args(&["-f", "makefile.cargo", "-j4"])
